@@ -1,0 +1,13 @@
+.posts-collection-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.posts-collection
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis:1200px;
+    align-content: center;
+}

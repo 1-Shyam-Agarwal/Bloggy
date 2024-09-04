@@ -1,0 +1,53 @@
+.card
+{
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 5px rgba(155, 154, 154, 0.105) ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 20px;
+    flex-basis: auto;
+    max-width: 31.25rem; /* Prevent the card from growing too large */
+    min-width: 22.35rem;
+}
+
+.cardheading
+{
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0.5rem;
+
+}
+
+.tags
+{
+    margin-right: 0.5rem;
+    color: rgba(24, 24, 242, 0.788);
+}
+
+.cardattribution,.carddate
+{
+    font-size: 0.75rem;
+    text-transform: capitalize;
+}
+
+.cardauthor,.cardcategory
+{
+    font-size: 1rem;
+}
+
+.cardcategory{
+    font-weight: 600;
+    color: rgba(89, 88, 88, 0.621);
+    text-decoration: none;
+}
+
+.cardcontent
+{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+

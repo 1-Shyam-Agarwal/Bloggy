@@ -1,0 +1,23 @@
+.heading{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3.75rem;
+    width: 90vw;
+    
+    font-weight: 600;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.269);
+}
+
+.heading_wrapper
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
